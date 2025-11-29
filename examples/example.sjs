@@ -1,7 +1,7 @@
 // variables
-let systemName: string = "People Manager";
-let version: number = 1;
-let debug: boolean = true;
+let name: string = "Raul";
+let age: number = 21;
+let student: boolean = true;
 
 // inferfaces
 interface Person {
@@ -45,8 +45,8 @@ let user = createPerson("Luis", 25, "luis@example.com");
 printPerson(user);
 
 // Mensajes condicionales
-if (debug) {
-  console.log("Debug mode is ON");
+if (student) {
+  console.log("Hi student");
 } else {
-  console.log("Debug mode is OFF");
+  console.log("Hi!");
 }
