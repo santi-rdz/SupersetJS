@@ -1,9 +1,9 @@
 export const KEYWORDS = new Set([
-  // JavaScript básicos
+  // js
   "let",
   "const",
   "var",
-  "function",
+  "fn",
   "return",
   "if",
   "else",
@@ -16,7 +16,7 @@ export const KEYWORDS = new Set([
   "null",
   "undefined",
 
-  // Superset
+  // ss
   "interface",
   "string",
   "number",

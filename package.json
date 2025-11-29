@@ -2,7 +2,10 @@
   "name": "supersetjs",
   "version": "1.0.0",
   "main": "index.js",
+  "type": "module",
   "scripts": {
+    "start": "node src/index.js",
+    "lexer": "node src/lexer/testlexer.mjs",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
