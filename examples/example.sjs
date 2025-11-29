@@ -13,8 +13,8 @@ interface Person {
 // Object literals tipados
 let admin: Person = {
   name: "Raul",
-  age: 20,
-  email: "raul@example.com"
+  age: 21,
+  email: "raul.rodriguez39@uabc.edu.com"
 };
 
 // Funcion que imprime un Person
